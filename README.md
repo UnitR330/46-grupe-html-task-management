@@ -10,15 +10,16 @@ _project unknown_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/UnitR330/46-grupe-html-rask-management
+Site published at: https://github.com/UnitR330/46-grupe-html-task-management
 
 Design: [REALESTATE](https://dribbble.com/shots/10172325/attachments/2114690?mode=media)
 
 ## 🎯 Project features/goals
 
--   Github pages
--   responsive design
--   repetatve    
+- Github pages
+- responsive design
+- repetative content generation with JS
+    
 
 ## 🧰 Getting Started
 
@@ -42,7 +43,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/UnitR330/46-grupe-html-realestate
+    git clone https://github.com/UnitR330/46-grupe-html-task-management
     ```
 2. Install NPM packages
     ```sh

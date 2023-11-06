@@ -1,0 +1,15 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: red;
+
+}
+
+.main-header > .logo {
+
+}
+
+.main-header > btn {
+
+}
