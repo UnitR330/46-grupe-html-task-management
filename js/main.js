@@ -1,5 +1,6 @@
 import { Todo } from "./todo.js";
 
+
 const kanban = new Todo('#kanban', ['Backlog', 'Todo', 'In progress', 'Done']);
 
 const addTaskBtnDOM = document.getElementById('add_task');
@@ -44,7 +45,7 @@ if (formDOM) {
             columnIndex: 0,
             title: formTitleDOM.value,
             desc: formDescDOM.value,
-            createdOn: '2023-11-08 09:03:15',
+            createdOn: '2023-11-10 09:03:15',
             deadline: formDeadlineDOM.value,
             tags: formTagsDOM.value
                 .split(',')
@@ -59,12 +60,7 @@ if (formDOM) {
     })
 }
 
-
-
 console.log(kanban);
-
-
-
 
 /*
 import { Todo } from "./Todo.js";

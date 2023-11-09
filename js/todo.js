@@ -17,7 +17,7 @@ export class Todo {
         }
 
         this.render();
-        this.loadInitialData();
+        // this.loadInitialData();
     }
 
     updateDOMelement() {
@@ -93,8 +93,9 @@ export class Todo {
         const data = JSON.parse(localData);
 
         for (const task of data) {
-            this.renderTask(task);
+        this.renderTask(task);
         }
+
     }
 }
 
